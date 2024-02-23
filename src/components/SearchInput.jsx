@@ -7,6 +7,6 @@ export default function SearchInput({ handleChange }) {
     return (
         <Box>
             <TextField onChange={handleOnChange} fullWidth label="Rechercher un emoji" />
-        </Box>
+        </Box>    
     );
 }
